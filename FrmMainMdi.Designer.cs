@@ -33,26 +33,25 @@
             this.ribbonTab1 = new Telerik.WinControls.UI.RibbonTab();
             this.radRibbonBarGroup1 = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.RdRbtnMainClasses = new Telerik.WinControls.UI.RadButtonElement();
+            this.radImageButtonElement1 = new Telerik.WinControls.UI.RadImageButtonElement();
             this.RdRbtnSubClasses = new Telerik.WinControls.UI.RadButtonElement();
+            this.radImageButtonElement2 = new Telerik.WinControls.UI.RadImageButtonElement();
             this.RdRbtnInstallation = new Telerik.WinControls.UI.RadButtonElement();
+            this.radImageButtonElement3 = new Telerik.WinControls.UI.RadImageButtonElement();
             this.RdRbtnMetallurgy = new Telerik.WinControls.UI.RadButtonElement();
+            this.radImageButtonElement4 = new Telerik.WinControls.UI.RadImageButtonElement();
             this.RdRbtnSize = new Telerik.WinControls.UI.RadButtonElement();
+            this.radImageButtonElement5 = new Telerik.WinControls.UI.RadImageButtonElement();
             this.RdRbtnTickness = new Telerik.WinControls.UI.RadButtonElement();
+            this.radImageButtonElement6 = new Telerik.WinControls.UI.RadImageButtonElement();
             this.RdRbtnJointType = new Telerik.WinControls.UI.RadButtonElement();
+            this.radImageButtonElement7 = new Telerik.WinControls.UI.RadImageButtonElement();
+            this.RdRbtnNDT = new Telerik.WinControls.UI.RadButtonElement();
+            this.radImageButtonElement8 = new Telerik.WinControls.UI.RadImageButtonElement();
             this.ribbonTab2 = new Telerik.WinControls.UI.RibbonTab();
             this.radRibbonBarGroup2 = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.radButtonElement8 = new Telerik.WinControls.UI.RadButtonElement();
-            this.radButtonElement9 = new Telerik.WinControls.UI.RadButtonElement();
             this.fluentTheme1 = new Telerik.WinControls.Themes.FluentTheme();
-            this.RdRbtnNDT = new Telerik.WinControls.UI.RadButtonElement();
-            this.radImageButtonElement1 = new Telerik.WinControls.UI.RadImageButtonElement();
-            this.radImageButtonElement2 = new Telerik.WinControls.UI.RadImageButtonElement();
-            this.radImageButtonElement3 = new Telerik.WinControls.UI.RadImageButtonElement();
-            this.radImageButtonElement4 = new Telerik.WinControls.UI.RadImageButtonElement();
-            this.radImageButtonElement5 = new Telerik.WinControls.UI.RadImageButtonElement();
-            this.radImageButtonElement6 = new Telerik.WinControls.UI.RadImageButtonElement();
-            this.radImageButtonElement7 = new Telerik.WinControls.UI.RadImageButtonElement();
-            this.radImageButtonElement8 = new Telerik.WinControls.UI.RadImageButtonElement();
             ((System.ComponentModel.ISupportInitialize)(this.radRibbonBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
@@ -82,7 +81,7 @@
             // 
             // ribbonTab1
             // 
-            this.ribbonTab1.IsSelected = true;
+            this.ribbonTab1.IsSelected = false;
             this.ribbonTab1.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.radRibbonBarGroup1});
             this.ribbonTab1.Name = "ribbonTab1";
@@ -117,38 +116,84 @@
             this.RdRbtnMainClasses.Text = "Main Classes";
             this.RdRbtnMainClasses.Click += new System.EventHandler(this.RdRbtnMainClasses_Click);
             // 
+            // radImageButtonElement1
+            // 
+            this.radImageButtonElement1.Name = "radImageButtonElement1";
+            this.radImageButtonElement1.Text = "radImageButtonElement1";
+            // 
             // RdRbtnSubClasses
             // 
             this.RdRbtnSubClasses.Name = "RdRbtnSubClasses";
             this.RdRbtnSubClasses.Text = "Sub Classes";
+            // 
+            // radImageButtonElement2
+            // 
+            this.radImageButtonElement2.Name = "radImageButtonElement2";
+            this.radImageButtonElement2.Text = "radImageButtonElement2";
             // 
             // RdRbtnInstallation
             // 
             this.RdRbtnInstallation.Name = "RdRbtnInstallation";
             this.RdRbtnInstallation.Text = "Installation Type";
             // 
+            // radImageButtonElement3
+            // 
+            this.radImageButtonElement3.Name = "radImageButtonElement3";
+            this.radImageButtonElement3.Text = "radImageButtonElement3";
+            // 
             // RdRbtnMetallurgy
             // 
             this.RdRbtnMetallurgy.Name = "RdRbtnMetallurgy";
             this.RdRbtnMetallurgy.Text = "Metallurgy";
+            // 
+            // radImageButtonElement4
+            // 
+            this.radImageButtonElement4.Name = "radImageButtonElement4";
+            this.radImageButtonElement4.Text = "radImageButtonElement4";
             // 
             // RdRbtnSize
             // 
             this.RdRbtnSize.Name = "RdRbtnSize";
             this.RdRbtnSize.Text = "Size ";
             // 
+            // radImageButtonElement5
+            // 
+            this.radImageButtonElement5.Name = "radImageButtonElement5";
+            this.radImageButtonElement5.Text = "radImageButtonElement5";
+            // 
             // RdRbtnTickness
             // 
             this.RdRbtnTickness.Name = "RdRbtnTickness";
             this.RdRbtnTickness.Text = "Thickness ";
+            // 
+            // radImageButtonElement6
+            // 
+            this.radImageButtonElement6.Name = "radImageButtonElement6";
+            this.radImageButtonElement6.Text = "radImageButtonElement6";
             // 
             // RdRbtnJointType
             // 
             this.RdRbtnJointType.Name = "RdRbtnJointType";
             this.RdRbtnJointType.Text = "Joint Type";
             // 
+            // radImageButtonElement7
+            // 
+            this.radImageButtonElement7.Name = "radImageButtonElement7";
+            this.radImageButtonElement7.Text = "radImageButtonElement7";
+            // 
+            // RdRbtnNDT
+            // 
+            this.RdRbtnNDT.Name = "RdRbtnNDT";
+            this.RdRbtnNDT.Text = "NDT Works";
+            // 
+            // radImageButtonElement8
+            // 
+            this.radImageButtonElement8.Name = "radImageButtonElement8";
+            this.radImageButtonElement8.Text = "radImageButtonElement8";
+            // 
             // ribbonTab2
             // 
+            this.ribbonTab2.IsSelected = true;
             this.ribbonTab2.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.radRibbonBarGroup2});
             this.ribbonTab2.Name = "ribbonTab2";
@@ -158,65 +203,14 @@
             // radRibbonBarGroup2
             // 
             this.radRibbonBarGroup2.Items.AddRange(new Telerik.WinControls.RadItem[] {
-            this.radButtonElement8,
-            this.radButtonElement9});
+            this.radButtonElement8});
             this.radRibbonBarGroup2.Name = "radRibbonBarGroup2";
             this.radRibbonBarGroup2.Text = "Generate Excel";
             // 
             // radButtonElement8
             // 
             this.radButtonElement8.Name = "radButtonElement8";
-            this.radButtonElement8.Text = "radButtonElement8";
-            // 
-            // radButtonElement9
-            // 
-            this.radButtonElement9.Name = "radButtonElement9";
-            this.radButtonElement9.Text = "radButtonElement9";
-            // 
-            // RdRbtnNDT
-            // 
-            this.RdRbtnNDT.Name = "RdRbtnNDT";
-            this.RdRbtnNDT.Text = "NDT Works";
-            // 
-            // radImageButtonElement1
-            // 
-            this.radImageButtonElement1.Name = "radImageButtonElement1";
-            this.radImageButtonElement1.Text = "radImageButtonElement1";
-            // 
-            // radImageButtonElement2
-            // 
-            this.radImageButtonElement2.Name = "radImageButtonElement2";
-            this.radImageButtonElement2.Text = "radImageButtonElement2";
-            // 
-            // radImageButtonElement3
-            // 
-            this.radImageButtonElement3.Name = "radImageButtonElement3";
-            this.radImageButtonElement3.Text = "radImageButtonElement3";
-            // 
-            // radImageButtonElement4
-            // 
-            this.radImageButtonElement4.Name = "radImageButtonElement4";
-            this.radImageButtonElement4.Text = "radImageButtonElement4";
-            // 
-            // radImageButtonElement5
-            // 
-            this.radImageButtonElement5.Name = "radImageButtonElement5";
-            this.radImageButtonElement5.Text = "radImageButtonElement5";
-            // 
-            // radImageButtonElement6
-            // 
-            this.radImageButtonElement6.Name = "radImageButtonElement6";
-            this.radImageButtonElement6.Text = "radImageButtonElement6";
-            // 
-            // radImageButtonElement7
-            // 
-            this.radImageButtonElement7.Name = "radImageButtonElement7";
-            this.radImageButtonElement7.Text = "radImageButtonElement7";
-            // 
-            // radImageButtonElement8
-            // 
-            this.radImageButtonElement8.Name = "radImageButtonElement8";
-            this.radImageButtonElement8.Text = "radImageButtonElement8";
+            this.radButtonElement8.Text = "Generate Excel";
             // 
             // FrmMainMdi
             // 
@@ -254,7 +248,6 @@
         private Telerik.WinControls.UI.RadButtonElement RdRbtnJointType;
         private Telerik.WinControls.UI.RadRibbonBarGroup radRibbonBarGroup2;
         private Telerik.WinControls.UI.RadButtonElement radButtonElement8;
-        private Telerik.WinControls.UI.RadButtonElement radButtonElement9;
         private Telerik.WinControls.UI.RadButtonElement RdRbtnNDT;
         private Telerik.WinControls.UI.RadImageButtonElement radImageButtonElement1;
         private Telerik.WinControls.UI.RadImageButtonElement radImageButtonElement2;
