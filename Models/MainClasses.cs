@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace AnsProject.Models
 {
     [Table("mainclasses")]
-    class ClsMainClassess
+    class MainClasses
     {
         [Key]
         public string cCode { get; set; }

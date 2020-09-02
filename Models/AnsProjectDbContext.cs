@@ -37,6 +37,6 @@ namespace AnsProject.Models
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
             base.OnModelCreating(modelBuilder);
         }
-        public DbSet<ClsMainClassess> MainClassesses { get; set; }
+        public DbSet<MainClasses> MainClassesses { get; set; }
     }
 }
